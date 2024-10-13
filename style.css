@@ -1,0 +1,21 @@
+#dialog {
+  width: 200px;
+  height: 200px;
+}
+
+#dialog::backdrop {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.dialog__container {
+  text-align: center;
+  background-color: yellow;
+}
+
+.dialog__close {
+  position: absolute;
+  top: 1%;
+  right: 2%;
+  padding: 5px;
+  cursor: pointer;
+}
