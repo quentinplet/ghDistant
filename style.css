@@ -1,6 +1,6 @@
 :root {
-  --dialog-width: 200px;
-  --dialog-height: 200px;
+  --dialog-width: 300px;
+  --dialog-height: 300px;
   --dialog-color: cyan;
   /* modifié directement sur github */
   --dialog-color-text: red;
