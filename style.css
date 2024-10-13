@@ -1,7 +1,8 @@
 :root {
   --dialog-width: 200px;
   --dialog-height: 200px;
-  --dialog-color: yellow;
+  --dialog-color: green;
+  --dialog-color-text: blue;
 }
 
 #dialog {
@@ -19,10 +20,14 @@
   background-color: var(--dialog-color);
 }
 
+.dialog__text {
+  color: var(--dialog-color-text);
+}
+
 .dialog__close {
   position: absolute;
   top: 1%;
-  right: 2%;
+  right: 1%;
   padding: 5px;
   cursor: pointer;
 }
