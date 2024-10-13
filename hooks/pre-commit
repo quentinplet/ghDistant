@@ -1,0 +1,16 @@
+#!/bin/bash
+# Change the following values to suit your local setup.
+# Add this file on your .git/hooks/ and name it as 'pre-commit' #
+
+
+read -p "Sauvegarde de la base dans ce commit (y/[n]) ?" yn < /dev/tty 
+yn=${yn:n}
+case $yn in
+    [Yy]* )
+        echo "commit vérifié le " `date` > commit_message.txt
+        git add commit_message.txt
+        exit 0;;
+    Nn]* ) 
+        exit 0;;
+esac 
+exit 0
