@@ -16,7 +16,7 @@
 
 .dialog__container {
   text-align: center;
-  background-color: yellow;
+  background-color: var(--dialog-color);
 }
 
 .dialog__close {
