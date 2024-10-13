@@ -2,7 +2,8 @@
   --dialog-width: 200px;
   --dialog-height: 200px;
   --dialog-color: green;
-  --dialog-color-text: blue;
+  /* modifié directement sur github */
+  --dialog-color-text: red;
 }
 
 #dialog {
