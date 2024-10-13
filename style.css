@@ -1,6 +1,13 @@
+:root {
+  --dialog-width: 200px;
+  --dialog-height: 200px;
+  --dialog-color: yellow;
+}
+
 #dialog {
-  width: 200px;
-  height: 200px;
+  position: relative;
+  width: var(--dialog-width);
+  height: var(--dialog-height);
 }
 
 #dialog::backdrop {
